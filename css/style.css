@@ -47,7 +47,7 @@ hero section start from here
 
 #hero
 {
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(/image/home.webp);
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../image/home.webp);
     background-position: center;
     background-size: cover;
     height: 87.5vh;
