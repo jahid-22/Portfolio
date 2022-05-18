@@ -1,0 +1,245 @@
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/********************************
+navbar design start from here
+*********************************/
+
+.logo-img
+{
+    width: 50px;   
+}
+.logo-name
+{
+    font-family: Glada;
+}
+.logo-name:hover{
+    color: white;
+}
+.nav-link
+{
+    color: white;
+    font-family: Atma;
+    font-size: 19px;
+    border-bottom: 1px solid transparent;
+    transition: .3s;
+    letter-spacing: 2px;
+}
+.nav-link:hover
+{
+    border-bottom: 1px solid blue;
+}
+/********************************
+navbar end here
+*********************************/
+
+/********************************
+hero section start from here
+*********************************/
+
+#hero
+{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(/image/home.webp);
+    background-position: center;
+    background-size: cover;
+    height: 87.5vh;
+}
+
+.hero-btn
+{
+    background: transparent;
+}
+.hero-img
+{
+    min-width: 200px;
+    max-width: 1600px;
+    width: auto;
+    height: auto;
+    border: 1px solid whitesmoke;
+}
+.hero-img img
+{
+    width: 70%;
+    height: 70%;
+}
+.hero-links
+{
+    width: auto;
+}
+.hero-links i 
+{
+    font-size: 25px;
+    margin-left: 20px;
+    transition: .3s;
+}
+.hero-links i:hover
+{
+    color: whitesmoke;
+}
+/********************************
+hero section end here
+*********************************/
+
+/********************************
+service section start from here
+*********************************/
+#services
+{
+    font-family: Chilanka;
+    font-size: 18px;
+    color: whitesmoke;
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+}
+#services .card
+{
+    background: transparent;
+    border: 1px solid #0B5ED7;
+}
+#services .card img
+{
+    background: rgb(63, 59, 59);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 10px  auto 10px auto;
+    padding: 8px;
+    
+}
+.service-card .card-hr
+{
+    height: 4px;
+    color: red;
+}
+.card-text 
+{
+    text-align: center;
+}
+
+/********************************
+service section end here
+*********************************/
+
+/********************************
+project design start from here
+*********************************/
+#project
+{
+    height: 100vh;
+}
+.project-card .img
+{
+    position: relative;
+    overflow: hidden;
+}
+.project-card .img a .blr
+{
+    text-align: center;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 100%;
+    transition: 1s;
+    padding: 1.5rem 5px 0 5px;
+    height: 100%;
+}
+.project-card .img a:hover .blr
+{
+    color: whitesmoke;
+    bottom: 10%;
+    background: linear-gradient(to right,#527491,#FFB7D5);
+    height: 100%;
+    padding-bottom: 20px;
+}
+/********************************
+project part design end here
+*********************************/
+
+/********************************
+contact & footer part design start here
+*********************************/
+
+#contact
+{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(/image/contact.webp);
+    background-size: cover;
+    background-position: center;
+}
+.address
+{
+    background-color: white;
+    border-radius: 5px;
+}
+.address .icon
+{
+    margin-top: 3rem;
+}
+.address i
+{
+    font-size: 18px;
+    border-radius: 20px;
+    background-color: gray;
+    padding: 10px;
+}
+.address address
+{
+    margin-left: 10px;
+    display: inline-block;
+}
+.contact-field
+{
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
+}
+.contact-field input
+{
+    width: 100%;
+    margin-top: 20px;
+    background-color: transparent;
+    padding: 5px;
+    border-radius: 8px;
+}
+.contact-field textarea
+{
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+.contact-field input:last-child
+{
+    width: 100px;
+    border-radius: 8px;
+    margin: 0 auto;
+    display: block;
+}
+
+.footer
+{
+    background: #212529;
+}
+.footer .footer-txt p
+{
+    color: whitesmoke;
+}
+
+.footer .footer-txt p span:nth-child(1)
+{
+    font-size: 23px;
+    color: tomato;
+}
+.footer .footer-txt p span:nth-child(2)
+{
+    font-size: 20px;
+    color: tomato;
+}
+/********************************
+contact & footer part design end here
+*********************************/
