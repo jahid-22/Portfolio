@@ -168,7 +168,7 @@ contact & footer part design start here
 #contact
 {
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(/image/contact.webp);
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../image/contact.webp);
     background-size: cover;
     background-position: center;
 }
